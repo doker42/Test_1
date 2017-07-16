@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.583 sec <<< FAILURE! - in TestSuite
+openSites(project.automation.chapter_1.tests.MainLenovoTest)  Time elapsed: 32.98 sec  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException: 30
+	at project.automation.chapter_1.tests.MainLenovoTest.openSites(MainLenovoTest.java:11)
+

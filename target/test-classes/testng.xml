@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Products Management" verbose="1" >
+    <test name="Create New Product [Chrome]" >
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name = "project.automation.chapter_1.tests.MainLenovoTest" />
+        </classes>
+    </test>
+</suite>
